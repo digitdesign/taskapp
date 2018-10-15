@@ -1,17 +1,15 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="myApp">
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="angular.js"></script>
 </head>
 
 <body>
-    <div>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <h1>Hello {{yourName}}!</h1>
+    <div ng-controller="mainController">
+        <h1>Hello, world.</h1>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
